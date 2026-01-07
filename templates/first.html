@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris Species AI</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <div class="card">
+        <h1>🌿 Iris AI</h1>
+        <p class="subtitle">Enter flower measurements below</p>
+
+        <form action="/predict" method="post" onsubmit="showLoading()">
+            <div class="input-group">
+                <label>Sepal Length (cm)</label>
+                <input type="number" step="0.1" name="sl" placeholder="e.g. 5.1" required>
+            </div>
+            <div class="input-group">
+                <label>Sepal Width (cm)</label>
+                <input type="number" step="0.1" name="sw" placeholder="e.g. 3.5" required>
+            </div>
+            <div class="input-group">
+                <label>Petal Length (cm)</label>
+                <input type="number" step="0.1" name="pl" placeholder="e.g. 1.4" required>
+            </div>
+            <div class="input-group">
+                <label>Petal Width (cm)</label>
+                <input type="number" step="0.1" name="pw" placeholder="e.g. 0.2" required>
+            </div>
+
+            <button type="submit" id="submitBtn">
+                <span class="btn-text" id="btnText">Identify Species</span>
+                <div class="loader" id="loader"></div>
+            </button>
+        </form>
+
+        {% if result %}
+        <div class="result-box">
+            <div class="result-label">Prediction Result</div>
+            <div class="result-value">{{ result }}</div>
+        </div>
+        {% endif %}
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
