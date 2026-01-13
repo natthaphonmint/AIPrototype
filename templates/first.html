@@ -1,50 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iris Species AI</title>
-    
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Iris AI - 伝説の狐 (Legendary Fox)</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
-    <div class="card">
-        <h1>🌿 Iris AI</h1>
-        <p class="subtitle">Enter flower measurements below</p>
+    <div class="bg-image"></div>
+    <div class="overlay"></div>
 
-        <form action="/predict" method="post" onsubmit="showLoading()">
-            <div class="input-group">
-                <label>Sepal Length (cm)</label>
-                <input type="number" step="0.1" name="sl" placeholder="e.g. 5.1" required>
-            </div>
-            <div class="input-group">
-                <label>Sepal Width (cm)</label>
-                <input type="number" step="0.1" name="sw" placeholder="e.g. 3.5" required>
-            </div>
-            <div class="input-group">
-                <label>Petal Length (cm)</label>
-                <input type="number" step="0.1" name="pl" placeholder="e.g. 1.4" required>
-            </div>
-            <div class="input-group">
-                <label>Petal Width (cm)</label>
-                <input type="number" step="0.1" name="pw" placeholder="e.g. 0.2" required>
+    <div id="particles-js"></div>
+
+    <div class="flying-fox-container">
+        <div class="fox-spirit">🦊</div>
+    </div>
+
+    <div class="shrine-container">
+        <div class="shrine-roof"></div>
+        
+        <header>
+            <h1>神聖なアイリス</h1>
+            <p>Sacred Iris Divination</p>
+        </header>
+
+        <form action="{{ url_for('predict') }}" method="post">
+            <div class="input-grid">
+                <div class="input-item">
+                    <label>Sepal Length</label>
+                    <input type="number" step="0.1" name="sl" placeholder="5.1" required>
+                </div>
+                <div class="input-item">
+                    <label>Sepal Width</label>
+                    <input type="number" step="0.1" name="sw" placeholder="3.5" required>
+                </div>
+                <div class="input-item">
+                    <label>Petal Length</label>
+                    <input type="number" step="0.1" name="pl" placeholder="1.4" required>
+                </div>
+                <div class="input-item">
+                    <label>Petal Width</label>
+                    <input type="number" step="0.1" name="pw" placeholder="0.2" required>
+                </div>
             </div>
 
-            <button type="submit" id="submitBtn">
-                <span class="btn-text" id="btnText">Identify Species</span>
-                <div class="loader" id="loader"></div>
+            <button type="submit" class="mystic-btn">
+                運命を占う (Analyze)
             </button>
         </form>
 
         {% if result %}
-        <div class="result-box">
-            <div class="result-label">Prediction Result</div>
-            <div class="result-value">{{ result }}</div>
+        <div class="result-scroll fade-in">
+            <div class="seal">合格</div>
+            <h2>{{ result }}</h2>
+            <p>The Spirits have spoken.</p>
         </div>
         {% endif %}
     </div>
 
-    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
