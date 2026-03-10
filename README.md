@@ -50,11 +50,12 @@
 ---
 
 ## 📚 Lecture Schedule
-| Class | Date | Description | Status |
-|---|---|---|---|
-|1|11/03/69|Command Line on Terminal|Lecture class l.md |
-|2|11/03/69|Cloud Virtual Machines|✅Lecture class ll.md|
-|3|11/03/69|Install Miniconda (Linux)|✅Lecture class lll.md|
+| Topic | Lecture |
+|:---:|:---:|
+| Command Line on Terminal | [`Lecture Class l.md`](https://github.com/natthaphonmint/AIPrototype/blob/76cedb851acd512a1b7d6c82334b9afbc8b98146/Lecture%20class%20l.md) |
+| Cloud Virtual Machines |[`Lecture Class ll.md`](https://github.com/natthaphonmint/AIPrototype/blob/76cedb851acd512a1b7d6c82334b9afbc8b98146/Lecture%20class%20ll.md)|
+| Install Miniconda (Linux) |[`Lecture Class lll.md`](https://github.com/natthaphonmint/AIPrototype/blob/76cedb851acd512a1b7d6c82334b9afbc8b98146/Lecture%20class%20lll.md)|
+| Managing Conda Environment |[`Lecture Class lV.md`](https://github.com/natthaphonmint/AIPrototype/blob/88d6153a2792d554e322311f7748c0d7eb677bb7/Lecture%20class%20lV.md)|
 
 
 ---
