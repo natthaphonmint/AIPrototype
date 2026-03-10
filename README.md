@@ -52,15 +52,11 @@
 ## 📚 Lecture Schedule
 | Class | Date | Description | Status |
 |---|---|---|---|
-|1|26/11/68|Lecture class l|✅ |
-|2|27/11/68|Lecture class 2|✅ |
-|3|03/12/68|Lecture class 3|✅ |
-|4|04/12/68|Lecture class 4|✅ |
-|5|11/12/68|Lecture class 5|✅ |
-|6|25/12/68|Lecture class 6|✅ |
-|7|07/01/69|Lecture class 7|✅ |
-|8|14/01/69|Lecture class 8|✅ |
-|9|15/01/69|Lecture class 9|✅ |
+|1|11/03/69|Lecture class l|✅ |
+|2|11/03/69|Lecture class 2|✅ |
+|3|11/03/69|Lecture class |✅ |
+|4|11/03/69|Lecture class |✅ |
+|5|11/03/69|Lecture class |✅ |
 
 
 ---
