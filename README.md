@@ -55,8 +55,6 @@
 |1|11/03/69|Lecture class I|✅ |
 |2|11/03/69|Lecture class II|✅ |
 |3|11/03/69|Lecture class III|✅ |
-|4|11/03/69|Lecture class |✅ |
-|5|11/03/69|Lecture class |✅ |
 
 
 ---
