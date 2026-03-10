@@ -1,7 +1,5 @@
-# 🌊 SC664401 Prototyping for Artificial Intelligence and Machine Learning System 🛠️
+# 🛠️ SC664401 Prototyping for Artificial Intelligence and Machine Learning System 
 ### การสร้างต้นแบบสำหรับระบบปัญญาประดิษฐ์และการเรียนรู้ของเครื่อง
-
-> การพัฒนาแบบจำลองการพยากรณ์ความสูงคลื่นในทะเลประเทศไทย โดยใช้ข้อมูลการวิเคราะห์ซ้ำ ERA5 ด้วยเทคนิคการเรียนรู้เชิงลึก
 
 ---
 
@@ -11,6 +9,7 @@
 |---|---|
 | 👤 ชื่อ | นางสาวณัฐพร อาจแก้ว |
 | 🎓 รหัสนักศึกษา | 653020553-8 |
+| 🌊 โปรเจค | การพัฒนาแบบจำลองการพยากรณ์ความสูงคลื่นในทะเลประเทศไทย โดยใช้ข้อมูลการวิเคราะห์ซ้ำ ERA5 ด้วยเทคนิคการเรียนรู้เชิงลึก |
 | 🏛️ มหาวิทยาลัย | มหาวิทยาลัยขอนแก่น |
 | 📚 สาขา | สถิติ (STAT) |
 | 📧 อีเมล | natthaphon.a@kkumail.com |
@@ -52,11 +51,15 @@
 
 ## 📋 Homework Assignments
 
-| Assignment | Due Date | Description | Link |
+| Due Date | Description | Status |
 |---|---|---|---|
-| HW 1 | 03/12/68 | Copy file | ✅ https://github.com/natthaphonmint/AIPrototype/blob/main/Hw1.png |
-| HW 2 | 20/12/68 | Update Lecture on GitHub | ✅ |
-| HW 3 | 13/12/68 | Fancy Iris Classification web app | ✅ |
+| 03/12/68 | Copy file | ✅ |
+| 20/12/68 | Update Lecture on GitHub | ✅ |
+| 13/12/68 | Fancy Iris Classification web app | ✅ |
+| 5/02/69 | Workflow and Webpage | ✅ |
+| 26/02/69 | Frontend Input and Frontend Output | ✅ |
+| 11/03/69 | Web app (Frontend Input ต่อ Backend ต่อ Frontend Output) Project page และ Github |  |
+
 
 
 ---
