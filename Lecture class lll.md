@@ -61,11 +61,11 @@ screen -R
 ```bash
 screen -R <screen_name>
 ```
-* 1. เข้าไปยัง screen ด้วย ID
+* 1. ระบุตัวตนเซสชันด้วยรหัส (ID)
 ```bash
 screen -R id.<screen_name>
 ```
-* 2. ลบ screen
+* 2. สั่งการลบเซสชัน
 ```bash
 Ctrl + A + K + Y
 ```
