@@ -52,9 +52,9 @@
 ## 📚 Lecture Schedule
 | Class | Date | Description | Status |
 |---|---|---|---|
-|1|11/03/69|Lecture class I|✅ |
-|2|11/03/69|Lecture class II|✅ |
-|3|11/03/69|Lecture class III|✅ |
+|1|11/03/69|Command Line on Terminal|✅Lecture class l.md|
+|2|11/03/69|Cloud Virtual Machines|✅Lecture class ll.md|
+|3|11/03/69|Install Miniconda (Linux)|✅Lecture class lll.md|
 
 
 ---
