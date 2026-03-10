@@ -54,7 +54,7 @@
 
 | Assignment | Due Date | Description | Link |
 |---|---|---|---|
-| HW 1 | 03/12/68 | Copy file | Hw1.png |
+| HW 1 | 03/12/68 | Copy file | ✅ https://github.com/natthaphonmint/AIPrototype/blob/main/Hw1.png |
 | HW 2 | 20/12/68 | Update Lecture on GitHub | ✅ |
 | HW 3 | 13/12/68 | Fancy Iris Classification web app | ✅ |
 
