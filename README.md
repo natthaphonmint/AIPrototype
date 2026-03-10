@@ -1,4 +1,4 @@
-# 🌊 Prototyping for Artificial Intelligence and Machine Learning System 🛠️
+# 🌊 SC664401 Prototyping for Artificial Intelligence and Machine Learning System 🛠️
 ### การสร้างต้นแบบสำหรับระบบปัญญาประดิษฐ์และการเรียนรู้ของเครื่อง
 
 > การพัฒนาแบบจำลองการพยากรณ์ความสูงคลื่นในทะเลประเทศไทย โดยใช้ข้อมูลการวิเคราะห์ซ้ำ ERA5 ด้วยเทคนิคการเรียนรู้เชิงลึก
@@ -28,7 +28,7 @@
 
 | หมวดหมู่ | ลิงก์ |
 |---|---|
-| 🌐 Project Webpage |  |
+| 🌐 Project Webpage | https://natthaphonmint.github.io/wave_height_forecasting/ |
 | 🚀 Project Web App | https://natthaphonmint.github.io/wave_prediction/ |
 
 ---
@@ -54,7 +54,7 @@
 
 | Assignment | Due Date | Description | Link |
 |---|---|---|---|
-| HW 1 | 03/12/68 | Copy file |  |
+| HW 1 | 03/12/68 | Copy file | Hw1.png |
 | HW 2 | 20/12/68 | Update Lecture on GitHub | ✅ |
 | HW 3 | 13/12/68 | Fancy Iris Classification web app | ✅ |
 
