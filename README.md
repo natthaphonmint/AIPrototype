@@ -1,4 +1,4 @@
-# 🛠️ SC664401 Prototyping for Artificial Intelligence and Machine Learning System 
+# 🤖 SC664401 Prototyping for Artificial Intelligence and Machine Learning System 
 ### การสร้างต้นแบบสำหรับระบบปัญญาประดิษฐ์และการเรียนรู้ของเครื่อง
 
 ---
@@ -34,11 +34,11 @@
 
 ## ✅ Presentation Checklists (สิ่งที่ต้องนำเสนอ)
 
-- [ ] GitHub เว็บนำเสนอผลงาน
-- [ ] GitHub project website
-- [ ] GitHub ส่วนตัว
-- [ ] หน้าเว็บไซต์โปรเจกต์
-- [ ] หน้าเว็บนำเสนอผลงาน
+- [⏳] GitHub เว็บนำเสนอผลงาน
+- [⏳] GitHub project website
+- [⏳] GitHub ส่วนตัว
+- [⏳] หน้าเว็บไซต์โปรเจกต์
+- [⏳] หน้าเว็บนำเสนอผลงาน
 
 ---
 
@@ -49,7 +49,7 @@
 
 ---
 
-## Lecture Schedule
+## 📚 Lecture Schedule
 | Class | Date | Description | Status |
 |---|---|---|---|
 |1|26/11/68|Lecture class l|✅ |
@@ -75,7 +75,7 @@
 | 13/12/68 | Fancy Iris Classification web app | ✅ |
 | 5/02/69 | Workflow and Webpage | ✅ |
 | 26/02/69 | Frontend Input and Frontend Output | ✅ |
-| 11/03/69 | Web app (Frontend Input ต่อ Backend ต่อ Frontend Output) Project page และ Github |  |
+| 11/03/69 | Web app (Frontend Input ต่อ Backend ต่อ Frontend Output) Project page และ Github | ⏳ |
 
 
 
