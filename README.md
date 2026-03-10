@@ -52,7 +52,7 @@
 ## 📋 Homework Assignments
 
 | Due Date | Description | Status |
-|---|---|---|---|
+|---|---|---|
 | 03/12/68 | Copy file | ✅ |
 | 20/12/68 | Update Lecture on GitHub | ✅ |
 | 13/12/68 | Fancy Iris Classification web app | ✅ |
